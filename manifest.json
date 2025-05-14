@@ -1,0 +1,20 @@
+{
+  "dataStudio": {
+    "name": "Custom Google Maps",
+    "description": "以 Google Maps JS API 呈現門市",
+    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg",
+    "version": "1.0",
+    "resources": [
+      "https://maps.googleapis.com/maps/api/js?key={{API_KEY}}",
+      "https://harveywahaha.github.io/maps-viz/maps-viz.js"
+    ],
+    "options": {
+      "API_KEY": {
+        "type": "TEXT",
+        "name": "Google Maps API 金鑰",
+        "description": "請輸入你的 Google Maps JavaScript API 金鑰",
+        "placeholder": "輸入 API Key"
+      }
+    }
+  }
+}
